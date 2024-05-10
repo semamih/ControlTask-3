@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, serif;
+    background-color: #000;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.button {
+    border: none;
+    background-color: rgb(255, 175, 24);
+    cursor: pointer;
+    width: 224px;
+    text-align: center;
+
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+
+}
+.button:hover {
+    box-shadow: 0 10px 10px rgba(255, 175, 24, 0.3);
+}
+
+/*header*/
+
+.header {
+    padding: 30px 0 30px 0;
+}
+.logo {
+    margin-right: 281px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu ul li:nth-child(1) {
+    margin-right: 60px;
+}
+.menu ul li:nth-child(2) {
+    margin-right: 60px;
+}
+.menu ul li:nth-child(3) {
+    margin-right: 54px;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+}
+.menu ul li a:hover {
+    color: rgb(255, 175, 24);
+    border-bottom: 2px solid rgb(255, 175, 24);
+}
+
+/*main*/
+
+.main {
+    padding: 133px 0 80px 0;
+}
+.main-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 17px;
+}
+.main-image {
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-info-title {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    max-width: 564px;
+    margin-bottom: 74px;
+}
+.main-info-title-span {
+    color: rgb(255, 175, 24);
+}
+.main-info-advantages {
+    margin-bottom: 92px;
+}
+.main-info-advantage {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 99px;
+}
+.main-info-advantage:last-child {
+    margin-right: 0;
+}
+.main-info-advantage-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.main-info-advantage img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.main-info-button {
+    padding: 22px;
+    border-radius: 30px;
+}
+
+/*products*/
+
+.products {
+    padding: 120px 0 120px 0;
+}
+.products-title {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.products-items {
+    font-size: 0;
+}
+.product-item {
+    padding: 10px 20px 15px 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 282px;
+    box-sizing: border-box;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+.product-item:first-child,
+.product-item:last-child{
+    border: 5px solid rgb(237, 155, 0);
+    padding: 5px 20px 10px 20px;
+}
+.product-item:nth-child(4),
+.product-item:nth-child(8){
+    margin-right: 0;
+}
+.product-item:hover {
+    box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 1);
+}
+.product-item-title {
+    margin: 30px 0 15px 0;
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+}
+.product-item-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    max-width: 228px;
+    margin: 0 auto 15px auto;
+    height: 50px;
+}
+.product-item-button {
+    padding: 18px;
+    border-radius: 25px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/*about*/
+
+.about {
+    margin: 120px 0 67px 0;
+}
+.about-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 48px;
+}
+.about-img {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.about h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    max-width: 368px;
+    margin-bottom: 60px;
+}
+.about h3 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    max-width: 354px;
+    margin-bottom: 40px;
+}
+.about-text {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    max-width: 348px;
+    margin-bottom: 100px;
+}
+.about-image {
+    background-color: white;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:  40px;
+}
+.about-image:last-child {
+    margin-right: 0;
+}
+.about-image img{
+    margin: 13px auto 0 auto;
+}
+
+/*footer*/
+
+.footer {
+    padding: 30px 0;
+}
+.footer img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 390px;
+}
+.footer-text {
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
