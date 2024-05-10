@@ -220,6 +220,9 @@ body {
 .about-image:last-child {
     margin-right: 0;
 }
+.about-image:hover {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
 .about-image img{
     margin: 13px auto 0 auto;
 }
