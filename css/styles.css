@@ -227,11 +227,13 @@ body {
 .about-image:hover {
     box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
 }
+
 .about-image:visited {
-    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+    background-color: rgb(190, 190, 190);
 }
+
 .about-image:active {
-    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+    background-color: rgb(255, 175, 24);
 }
 .about-image img{
     margin: 13px auto 0 auto;
